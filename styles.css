@@ -185,7 +185,6 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    height: 300px;
     width: 100%;
     background-color: #FFEFD5;
     margin-top: 10%;
@@ -194,6 +193,7 @@ footer {
 .footer-box {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     width: 75%;
     margin-top: 3%;
 }
@@ -262,14 +262,6 @@ footer {
         margin: 1% auto 0;
     }
 
-    .icon-container {
-        flex-wrap: wrap;
-    }
-
-    .icon {
-        flex-basis: 50%;
-    }
-
 }
 
 @media (max-width: 992px) {
@@ -329,6 +321,17 @@ footer {
 
     .footer-box {
         width: 100%;
+    }
+
+    .support,
+    .main-link,
+    .social {
+        margin-top: 5%;
+    }
+
+    .main-link-tags,
+    .support-tags {
+        margin-top: auto;
     }
 
 }
