@@ -193,7 +193,7 @@ footer {
 .footer-box {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     width: 75%;
     margin-top: 3%;
 }
