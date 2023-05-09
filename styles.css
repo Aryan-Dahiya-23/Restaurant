@@ -291,7 +291,7 @@ footer {
     .card-box {
         width: 100%;
     }
-
+    
     .card-img {
         width: 25%;
         margin-left: 2.5%;
@@ -321,6 +321,7 @@ footer {
 
     .footer-box {
         width: 100%;
+        flex-direction: column;
     }
 
     .support,
